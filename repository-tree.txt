@@ -1,0 +1,103 @@
+.
+├── Credit/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   └── README.md
+├── data/
+│   ├── krm-v3.0.xlsx
+│   └── README.md
+├── docs/
+│   ├── kim-template.md
+│   ├── mlops-devops-relation.md
+│   ├── Prezi.pptx
+│   ├── quality-checklist.md
+│   ├── README.md
+│   ├── RPD-defense-2026-07-15.pptx
+│   ├── rpd.md
+│   └── Презентация РПД.pptx.pdf
+├── M1-Hardware architecture of AI/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-01.md
+│   └── README.md
+├── M2-Containerd and inference/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-02.md
+│   └── README.md
+├── M3-Orchestration and scaling/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-03.md
+│   └── README.md
+├── M4-Data infrastructure/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-04.md
+│   └── README.md
+├── M5-CICD-gitOps/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-05.md
+│   └── README.md
+├── M6-Monitoring/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-06.md
+│   └── README.md
+├── M7-Load testing and quality assessment/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-07.md
+│   └── README.md
+├── M8-Infrastructure planning/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   ├── kim-08.md
+│   └── README.md
+├── methodical-guidelines/
+│   ├── students/
+│   │   └── README.md
+│   ├── teachers-assessment/
+│   │   └── README.md
+│   ├── teachers-resources/
+│   │   └── README.md
+│   └── README.md
+├── other/
+│   └── README.md
+├── Project/
+│   ├── attachments/
+│   │   └── .gitkeep
+│   └── README.md
+├── resources/
+│   ├── benchmarks/
+│   │   └── README.md
+│   ├── datasets/
+│   │   └── README.md
+│   ├── llm-prompts/
+│   │   └── README.md
+│   ├── other/
+│   │   └── README.md
+│   ├── papers/
+│   │   └── README.md
+│   ├── problem-banks/
+│   │   └── README.md
+│   ├── software/
+│   │   └── python-libs/
+│   │       └── README.md
+│   ├── test-banks/
+│   │   └── README.md
+│   ├── textbooks/
+│   │   └── README.md
+│   └── README.md
+├── team/
+│   ├── images/
+│   │   └── .gitkeep
+│   └── README.md
+├── .gitignore
+├── CONTRIBUTING.md
+├── labs.md
+├── LICENSE
+├── README.md
+├── repository-tree.txt
+└── TODO.md

@@ -1,9 +1,15 @@
 # Научные статьи
 
+Ключевые публикации по серверам инференса, батчингу, квантованию БЯМ и бенчмаркингу. Используются для СРС продвинутого уровня (обоснование выбора сервера инференса и методов оптимизации) и как первоисточники для лекций разделов 2, 7 и 8. Все ссылки ведут на открытые версии (arXiv, USENIX).
+
 | Название | Аннотация | Связанные КИМ | Доступ | Лицензия / условия | Дата проверки |
 |---|---|---|---|---|---|
-| [ЗАПОЛНИТЬ] | [Кратко опишите назначение] | [ссылка] | [ссылка или путь] | [ЗАПОЛНИТЬ] | [ГГГГ-ММ-ДД] |
+| W. Kwon et al. Efficient Memory Management for Large Language Model Serving with PagedAttention (SOSP 2023) | Вводит PagedAttention и систему vLLM: управление KV-кэшем по аналогии со страничной памятью ОС, near-zero фрагментация, рост throughput в 2–4× при той же latency. Первоисточник для темы «серверы инференса». | [Модуль 2](<../../M2-Containerd and inference/README.md>) | [arXiv:2309.06180](https://arxiv.org/abs/2309.06180) | Открытый доступ (arXiv); © авторы | 2026-07-22 |
+| G.-I. Yu et al. Orca: A Distributed Serving System for Transformer-Based Generative Models (OSDI 2022) | Iteration-level scheduling (continuous batching) для генеративных трансформеров: планирование на уровне итераций вместо запросов, кратный рост throughput при сохранении latency. База для понимания continuous batching. | [Модуль 2](<../../M2-Containerd and inference/README.md>) | [USENIX OSDI'22](https://www.usenix.org/conference/osdi22/presentation/yu), [PDF](https://www.usenix.org/system/files/osdi22-yu.pdf) | Открытый доступ (USENIX) | 2026-07-22 |
+| E. Frantar et al. GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers (ICLR 2023) | Одношаговая посттренировочная квантизация весов БЯМ до 3–4 бит на основе приближённой информации второго порядка; позволяет разместить модель 175B на одном GPU. Опора для темы квантования. | [Модуль 2](<../../M2-Containerd and inference/README.md>) | [arXiv:2210.17323](https://arxiv.org/abs/2210.17323) | Открытый доступ (arXiv); © авторы | 2026-07-22 |
+| J. Lin et al. AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration (MLSys 2024) | Квантизация весов с учётом активаций: защита ~1% «значимых» весов резко снижает ошибку 4-битной квантизации без обучения. Альтернатива GPTQ для сравнения методов оптимизации инференса. | [Модуль 2](<../../M2-Containerd and inference/README.md>) | [arXiv:2306.00978](https://arxiv.org/abs/2306.00978) | Открытый доступ (arXiv); © авторы | 2026-07-22 |
+| V. J. Reddi et al. MLPerf Inference Benchmark (ISCA 2020) | Отраслевой стандарт измерения производительности инференс-систем: сценарии (single-stream, server, offline), метрики, правила воспроизводимости. Методологическая основа нагрузочного тестирования и capacity planning. | [Модуль 7](<../../M7-Load testing and quality assessment/README.md>), [Модуль 8](<../../M8-Infrastructure planning/README.md>) | [arXiv:1911.02549](https://arxiv.org/abs/1911.02549) | Открытый доступ (arXiv); © авторы | 2026-07-22 |
 
 ## Требования к добавлению
 
-Добавляйте DOI или устойчивую ссылку, краткую аннотацию и пояснение, для какого результата обучения используется публикация.
+Добавляйте DOI или устойчивую ссылку (arXiv / издательство / USENIX), краткую аннотацию и пояснение, для какого результата обучения используется публикация. Указывайте площадку и год публикации.
