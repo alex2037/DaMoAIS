@@ -7,6 +7,7 @@
 │   ├── krm-v3.0.xlsx
 │   └── README.md
 ├── docs/
+│   ├── kim-template.md
 │   ├── mlops-devops-relation.md
 │   ├── Prezi.pptx
 │   ├── quality-checklist.md
@@ -17,42 +18,42 @@
 ├── M1-Hardware architecture of AI/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-01-template.md
+│   ├── kim-01.md
 │   └── README.md
 ├── M2-Containerd and inference/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-02-template.md
+│   ├── kim-02.md
 │   └── README.md
 ├── M3-Orchestration and scaling/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-03-template.md
+│   ├── kim-03.md
 │   └── README.md
 ├── M4-Data infrastructure/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-04-template.md
+│   ├── kim-04.md
 │   └── README.md
 ├── M5-CICD-gitOps/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-05-template.md
+│   ├── kim-05.md
 │   └── README.md
 ├── M6-Monitoring/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-06-template.md
+│   ├── kim-06.md
 │   └── README.md
 ├── M7-Load testing and quality assessment/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-07-template.md
+│   ├── kim-07.md
 │   └── README.md
 ├── M8-Infrastructure planning/
 │   ├── attachments/
 │   │   └── .gitkeep
-│   ├── kim-08-template.md
+│   ├── kim-08.md
 │   └── README.md
 ├── methodical-guidelines/
 │   ├── students/
